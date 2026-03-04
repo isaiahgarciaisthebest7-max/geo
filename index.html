@@ -1,0 +1,26 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairydust Wave Ultimate - Better than GD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <audio id="music" loop>
+        <!-- Add fairydust.mp3 in folder; search "Fairydust Rukkus mp3 free download" if needed -->
+        <source src="fairydust.mp3" type="audio/mpeg">
+    </audio>
+    <div id="instructions">
+        <p>Space/Up Arrow/Click/Touch: Hold to ascend/descend (like jumping in wave mode)</p>
+        <p>P: Checkpoint | R: Restart from checkpoint</p>
+        <p>1-4: Speed (slow-quad) | M: Mute</p>
+        <p>N: Noclip (invincible) | A: Auto mode</p>
+        <p>G: God mode (auto win) | F: Fullscreen</p>
+        <p>C: Customize colors | High score: <span id="highScore">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
